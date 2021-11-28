@@ -1,1 +1,16 @@
-
+.App{
+    background-color: #03224C;
+    font-family: 'Playfair Display', serif;
+    color: lavender;
+}
+.text-link{
+    color: inherit;
+    text-decoration: inherit;
+}
+a{
+    text-decoration: none;
+    color: lavender;
+}
+a:hover{
+    color: #5FECBE;
+}

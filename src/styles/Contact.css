@@ -1,0 +1,29 @@
+.contact{
+    height: 80vh;
+    
+}
+.contactMail{
+    height: 100%;
+    border-bottom: 6px solid #A7AABC;
+    margin: 0 5%;
+}
+.mail{
+    color: #5fecbe;
+    font-size: xx-large;
+}
+#mailto{
+    color: #5FECBE;
+}
+#mailto:hover{
+    color: lavender;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1250px) {
+    .contactMail{
+        margin: 0;
+    }
+    .mail{
+        font-size: medium;
+    }
+}

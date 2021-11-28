@@ -1,0 +1,10 @@
+.bioTxt{
+   color: #03224C; 
+   padding-top: 20vh;
+}
+.title{
+    color: #5FECBE;
+    font-weight: bolder;
+    font-size: 6rem;
+    text-shadow: 3px 3px #03224C;
+}

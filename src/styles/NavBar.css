@@ -1,3 +1,35 @@
-.navbar{
-    background-color: hotpink;
+.menu{
+    position: fixed;
+    z-index: 999;
+    background-color: #03224C;
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    color: lavender;
+    cursor: default;
+}
+.menu-row{
+    padding: 1em;
+}
+#contact{
+    cursor: pointer;
+    text-decoration: none!important;
+    color: #5FECBE;
+}
+#contact:hover{
+    color: lavender;
+}
+.pulse:hover{ 
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;   
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1);}
+    100% { transform: scale(1); }
+  }
+/* MEDIA QUERIES */
+@media (max-width: 1250px) {
+    .menu{
+        font-size: small;
+    }
 }

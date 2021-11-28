@@ -1,16 +1,19 @@
-import Header from './layout/Header';
-import Footer from './layout/Footer';
-import NavBar from './layout/NavBar';
+import HomePage from './layout/HomePage';
+import ContactPage from './layout/ContactPage';
+import BioPage from './layout/BioPage';
+
+import {Routes, Route} from 'react-router-dom'
 
 import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Header />
-      <h1>Hello World!</h1>
-      <Footer />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path='/bio' element={<BioPage />} />
+      </Routes> 
     </div>
   );
 }

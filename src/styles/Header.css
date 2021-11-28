@@ -1,3 +1,36 @@
 .header{
-    background-color: cornflowerblue;
+    background-color: #03224C;
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    color: #A7AABC;
+    width: 90%;
+    height: 100%;
+    margin: 0 5%;
+}
+
+.headerWords{
+    color: lavender;
+}
+
+#headerBio{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #5FECBE;
+}
+#headerBio:hover{
+    color: lavender;
+    transition: color 4s;
+}
+.headerRow{
+    padding: 25vh 0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1250px) {
+    .header{
+        font-size:x-large;
+    }
+    .headerRow{
+        padding: 0 0;
+    }
 }

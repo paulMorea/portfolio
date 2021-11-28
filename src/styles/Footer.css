@@ -1,3 +1,28 @@
 .footer{
-    background-color: ghostwhite;
+    background-color: #03224C;
+    font-family: 'Playfair Display', serif;
+    color: lavender;
+    width: 90%;
+    margin: 0 5%;
+    padding: 3em 0;
+    height: 20vh;
+}
+.notLavender{
+    color: #A7AABC;
+}
+#Name{
+    text-decoration: underline;
+}
+.logo{
+    width: 5vmax;
+}
+.logo img{
+    width: 40px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1250px) {
+    .footer{
+        height: 100%;
+    }
 }
