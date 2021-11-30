@@ -23,12 +23,12 @@ function Footer(){
                         <div className="col"><a href="https://twitter.com/Paul_Morea_">Twitter</a></div>
                     </div>
                     <div className="row text-center">
-                        <div className="col logo"><a href="https://www.linkedin.com/in/paul-morea/"><img src={LogoLinkedin} class="img-fluid rounded" alt="..."/></a></div>
-                        <div className="col logo"><a href="https://github.com/paulMorea"><img src={LogoGithub} class="img-fluid rounded" alt="..."/></a></div>
-                        <div className="col logo"><a href="https://twitter.com/Paul_Morea_"><img src={LogoTwitter} class="img-fluid rounded" alt="..."/></a></div>
+                        <div className="col logo"><a href="https://www.linkedin.com/in/paul-morea/"><img src={LogoLinkedin} className="img-fluid rounded" alt="..."/></a></div>
+                        <div className="col logo"><a href="https://github.com/paulMorea"><img src={LogoGithub} className="img-fluid rounded" alt="..."/></a></div>
+                        <div className="col logo"><a href="https://twitter.com/Paul_Morea_"><img src={LogoTwitter} className="img-fluid rounded" alt="..."/></a></div>
                     </div>
                 </div>
-                <div className="col-12 col-md-1 text-end">
+                <div className="d-none d-lg-block col-md-1 text-end">
                     <div className="col notLavender">Crédits</div>
                 </div>
             </div>

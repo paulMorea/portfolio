@@ -15,7 +15,7 @@ function Header(){
                 </div>
                 <div className="col-12 col-md-7 d-flex justify-content-center">
                     <div className='col-7'>
-                        <img src={Welcome} class="img-fluid" alt="Welcome"/>
+                        <img src={Welcome} className="img-fluid" alt="Welcome"/>
                     </div>
                 </div>
             </div>

@@ -7,11 +7,9 @@
     height: 100%;
     margin: 0 5%;
 }
-
 .headerWords{
     color: lavender;
 }
-
 #headerBio{
     text-decoration: underline;
     font-weight: bolder;
@@ -28,9 +26,10 @@
 /* MEDIA QUERIES */
 @media (max-width: 1250px) {
     .header{
-        font-size:x-large;
+        font-size:large;
     }
     .headerRow{
         padding: 0 0;
+        padding-top: 25vh;
     }
 }
