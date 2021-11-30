@@ -12,28 +12,33 @@ import Wordpress from '../assets/logos-techno/wordpress.png'
 function BioLangage(){
     return(
         <div className="row bioLangage">
-        <div className="row titleRow">
-            <div className="col-12 my-2">
-                <h3 className='title text-center'>Mes technologies</h3>
+            <div className="row titleRow">
+                <div className="col-12 my-2">
+                    <h3 className='title text-center'>Mes technologies</h3>
+                </div>
+            </div>
+            <div className="row d-flex d-flex justify-content-evenly">   
+                <div className="col-12 d-flex justify-content-center my-2 logoContainer">
+                    <img src={Html} alt="" className="img-fluid logo mx-1 mx-md-5" />
+                    <img src={Js} alt="" className="img-fluid logo mx-1 mx-md-5" />
+                    <img src={Php} alt="" className="img-fluid logo mx-1 mx-md-5" />
+                </div>
+            </div>    
+            <div className="row d-flex justify-content-evenly">
+                <div className="col-12 d-flex justify-content-center my-2 logoContainer">
+                    <img src={Git} alt="" className="img-fluid logo mx-1 mx-md-5" />
+                    <img src={ReactLogo} alt="" className="img-fluid logo mx-1 mx-md-5" />   
+                    <img src={Symfony} alt="" className="img-fluid logo mx-1 mx-md-5" /> 
+                </div>
+            </div>
+            <div className="row d-flex justify-content-evenly">
+                <div className="col-12 d-flex justify-content-center my-2 logoContainer">
+                    <img src={Boostrap} alt="" className="img-fluid logo mx-1 mx-md-5" />
+                    <img src={Wordpress} alt="" className="img-fluid logo mx-1 mx-md-5" />
+                    <img src={Photoshop} alt="" className="img-fluid logo mx-1 mx-md-5" />
+                </div>
             </div>
         </div>
-            <div className="row d-flex my-2 d-flex justify-content-evenly">   
-                <div className="col-4 d-flex justify-content-center my-2 logoContainer"><img src={Html} alt="" class="img-fluid logo" /></div>
-                <div className="col-4 d-flex justify-content-center my-2 logoContainer"><img src={Js} alt="" class="img-fluid logo" /></div>
-                <div className="col-4 d-flex justify-content-center my-2 logoContainer"><img src={Php} alt="" class="img-fluid logo" /></div>
-            </div>    
-            <div className="row my-2 d-flex justify-content-evenly">
-                <div className="col-4 d-flex justify-content-center my-2 logoContainer"><img src={Git} alt="" class="img-fluid logo" /></div>
-                <div className="col-4 d-flex justify-content-center my-2 logoContainer"><img src={ReactLogo} alt="" class="img-fluid logo" /></div>
-                <div className="col-4 d-flex justify-content-center my-2 logoContainer"><img src={Symfony} alt="" class="img-fluid logo" /></div>
-            </div>
-            <div className="row my-2 d-flex justify-content-evenly">
-                <div className="col-4 d-flex justify-content-center my-2 logoContainer"><img src={Boostrap} alt="" class="img-fluid logo" /></div>
-                <div className="col-4 d-flex justify-content-center my-2 logoContainer"><img src={Wordpress} alt="" class="img-fluid logo" /></div>
-                <div className="col-4 d-flex justify-content-center my-2 logoContainer"><img src={Photoshop} alt="" class="img-fluid logo" /></div>
-            </div>
-        
-    </div>
     )
 }
 

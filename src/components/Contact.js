@@ -8,8 +8,7 @@ function Contact(){
                      <a id='mailto' href="mailto:paulmoreapro@gmail.com">paulmoreapro@gmail.com</a>
                 </div>
             </div>
-        </div>
-        
+        </div>  
     )
 }
 

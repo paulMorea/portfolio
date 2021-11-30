@@ -8,3 +8,31 @@
     font-size: 6rem;
     text-shadow: 3px 3px #03224C;
 }
+.text{
+    font-size: large;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1250px) {
+    .bioTxt{
+        padding-top: 10vh;
+    }
+    .title{
+        opacity: 1;
+        font-size: large;
+    }
+    .text{
+        font-size: small;
+    }
+    .meTxt{
+        order: 2;
+    }
+    .meImg{
+        order: 1;
+    }
+    .me{
+        height: 30%;
+        width: 30%;
+    }
+    
+}

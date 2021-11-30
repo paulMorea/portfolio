@@ -9,7 +9,7 @@ function Bio(){
             <div className="container-fluid bio">
                 <BioTxt />
             </div>
-            <div className="container-fluid bio">
+            <div className="container-fluid ">
                 <BioLangage />
             </div>
         </React.Fragment>

@@ -35,15 +35,20 @@
 }
 .card-title{
     color: #5fecbe;
-    font-weight: bolder;
-    font-size: 6rem;
     text-shadow: 2px 0 0 #03224c, 2px 2px 0 #03224c, 0 2px 0 #03224c, -2px 2px 0 #03224c, -2px 0 0 #03224c, -2px -2px 0 #03224c, 0 -2px 0 #03224c, 2px -2px 0 #03224c;
 }
 .card-text{
     color: lavender;
-    font-weight: bolder;
-    font-size: 1.5rem;
     text-align: justify;
     text-shadow: 2px 0 0 #03224c, 2px 2px 0 #03224c, 0 2px 0 #03224c, -2px 2px 0 #03224c, -2px 0 0 #03224c, -2px -2px 0 #03224c, 0 -2px 0 #03224c, 2px -2px 0 #03224c;
     padding: 3rem;
+}
+/* MEDIA QUERIES */
+@media (max-width: 1250px) {
+    .card-body .card-title{
+        opacity: 1;
+    }
+    .card-body:hover .card-title,.card-body:hover .card-text{
+        display: none;
+    }
 }

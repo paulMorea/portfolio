@@ -4,9 +4,6 @@ import NavBar from './NavBar'
 import Footer from './Footer'
 import Contact from '../components/Contact'
 
-import '../styles/ContactPage.css'
-
-
 function Bio(){
     return(
         <React.Fragment>
@@ -14,9 +11,7 @@ function Bio(){
                 <NavBar />
                 <Contact />
                 <Footer />
-            </div>
-            
-            
+            </div> 
         </React.Fragment>
     )
 }
