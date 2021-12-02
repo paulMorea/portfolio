@@ -11,7 +11,7 @@ function Header(){
                     <p>Bonjour, je suis <span className='headerWords'>Paul MOREA,</span></p>
                     <p>Étudiant <span className='headerWords'>développeur Web</span> et web mobile à l'AFPA Rouen.</p>
                     <p>Je serais disponible pour un <span className='headerWords'>emploi</span> à partir du mois de Mai 2022. 😉</p>
-                    <p><span className='headerWords'>En savoir plus</span> 👉 <Link to="/bio" className='text-link'><span id='headerBio'>Ma biographie</span></Link></p>
+                    <p><span className='headerWords'>En savoir plus</span> 👉 <Link to="/portfolio/bio" className='text-link'><span id='headerBio'>Ma biographie</span></Link></p>
                 </div>
                 <div className="col-12 col-md-7 d-flex justify-content-center">
                     <div className='col-7'>
